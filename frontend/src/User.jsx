@@ -13,8 +13,8 @@ const User = () => {
   const [isEdit, setIsEdit] = useState(false); 
   const [editId, setEditId] = useState(null);
 
-  const url = "http://localhost:5000";
-
+ 
+const url= "https://curd-app-mern-08gp.onrender.com"
   const handleChange = (e) => {
     setformData({ ...formData, [e.target.name]: e.target.value });
   };
